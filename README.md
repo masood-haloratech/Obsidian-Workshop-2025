@@ -1,0 +1,1 @@
+# Obsidian Workshop 2025
