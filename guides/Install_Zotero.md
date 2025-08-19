@@ -54,7 +54,8 @@ The Zotero browser extension allows you to save references directly from web pag
 ### Configure the Extension
 
 4. **Access the extension**
-   - Click on the Zotero extension icon in your browser toolbar
+   - You do NOT need to be signed into Chrome to use the extension.
+   - Click on the plugin extension icon in your browser toolbar
 
    ![Zotero Chrome Plugin Screen 4](./assets/Zotero_Setup-Screen_08.png)
 
