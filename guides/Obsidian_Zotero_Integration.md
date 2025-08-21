@@ -3,8 +3,7 @@
 This guide shows you how to connect Zotero and Obsidian, allowing you to seamlessly reference your research library within your notes.
 
 ## Integration Workflow Overview
-
-![Workflow](drawing-20250820153930.excalidraw.svg)
+![Workflow](./assets/drawing-20250820153930.excalidraw.svg)
 
 The integration works through these key components:
 - **Zotero with Better BibTeX plugin:** Exports your library to a JSON file whenever changes are made
@@ -31,33 +30,33 @@ Create a dedicated folder to store the integration files:
 1. **Visit the official plugin page**
    - Go to [https://retorque.re/zotero-better-bibtex/installation/](https://retorque.re/zotero-better-bibtex/installation/index.html)
 
-   ![Obsidian-zotero Integration Screen 01](./Integration_01.png)
+   ![Obsidian-zotero Integration Screen 01](./assets/Integration_01.png)
 
 2. **Download the plugin file**
    - Scroll to the bottom of the GitHub page
    - Download the `.xpi` plugin file
 
-   ![Obsidian-zotero Integration Screen 02](./Integration_02.png)
+   ![Obsidian-zotero Integration Screen 02](./assets/Integration_02.png)
 
 ### Install the Plugin in Zotero
 
 3. **Open Plugin Manager**
    - In Zotero, navigate to `Tools > Plugins`
 
-   ![Obsidian-zotero Integration Screen 03](./Integration_03.png)
+   ![Obsidian-zotero Integration Screen 03](./assets/Integration_03.png)
 
 4. **Install from file**
    - Click the settings cog icon on the right
    - Choose `Install Plugin From File`
    - Select the downloaded `.xpi` file
 
-   ![Obsidian-zotero Integration Screen 04](./Integration_04.png)
+   ![Obsidian-zotero Integration Screen 04](./assets/Integration_04.png)
 
 5. **Enable the plugin**
    - Ensure the Better BibTeX plugin is enabled
    - Close the Plugin Manager
 
-   ![Obsidian-zotero Integration Screen 05](./Integration_05.png)
+   ![Obsidian-zotero Integration Screen 05](./assets/Integration_05.png)
 
 ## Step 3: Configure Citation Keys
 
@@ -70,7 +69,7 @@ Create a dedicated folder to store the integration files:
    - **Recommendation:** Keep the default format unless you have specific requirements
    - Other default settings work well for most users
 
-   ![Obsidian-zotero Integration Screen 10](./Integration_06.png)
+   ![Obsidian-zotero Integration Screen 10](./assets/Integration_06.png)
 
 ## Step 4: Export Zotero Library
 
@@ -82,19 +81,19 @@ This step creates the bridge file that connects Zotero to Obsidian.
    - Right-click on `My Library` in Zotero
    - Select `Export Library...`
 
-   ![Obsidian-zotero Integration Screen 11](./Integration_07.png)
+   ![Obsidian-zotero Integration Screen 11](./assets/Integration_07.png)
 
 2. **Choose export location**
    - Navigate to the `Integration` folder you created earlier
 
-   ![Obsidian-zotero Integration Screen 12](./Integration_08.png)
+   ![Obsidian-zotero Integration Screen 12](./assets/Integration_08.png)
 
 3. **Configure export settings**
    - **Format:** Select `Better BibTeX JSON`
    - **✓ Keep updated:** This ensures the file stays synchronized with your Zotero library
    - Click `OK` to complete the export
 
-   ![Obsidian-zotero Integration Screen 13](./Integration_09.png)
+   ![Obsidian-zotero Integration Screen 13](./assets/Integration_09.png)
 
 
 ## Step 5: Install Zotero Integration Plugin for Obsidian
@@ -104,7 +103,7 @@ This step creates the bridge file that connects Zotero to Obsidian.
 1. **Access Obsidian settings**
    - Ensure Community Plugins are enabled in your Obsidian settings
 
-   ![Obsidian-zotero Integration Screen 06](./Integration_10.png)
+   ![Obsidian-zotero Integration Screen 06](./assets/Integration_10.png)
 
 ### Install the Plugin
 
@@ -112,17 +111,17 @@ This step creates the bridge file that connects Zotero to Obsidian.
    - Navigate to `Community Plugins`
    - Click `Browse`
 
-   ![Obsidian-zotero Integration Screen 07](./Integration_11.png)
+   ![Obsidian-zotero Integration Screen 07](./assets/Integration_11.png)
 
 3. **Find Zotero Integration**
    - Search for `Zotero Integration` plugin
 
-   ![Obsidian-zotero Integration Screen 08](./Integration_12.png)
+   ![Obsidian-zotero Integration Screen 08](./assets/Integration_12.png)
 
 4. **Install the plugin**
    - Click `Install` to add the plugin to Obsidian
 
-   ![Obsidian-zotero Integration Screen 09](./Integration_13.png)
+   ![Obsidian-zotero Integration Screen 09](./assets/Integration_13.png)
 
 ## Step 6: Configure the Obsidian Plugin
 
