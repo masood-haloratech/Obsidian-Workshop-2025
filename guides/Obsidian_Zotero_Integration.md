@@ -127,6 +127,5 @@ This step creates the bridge file that connects Zotero to Obsidian.
 
 After installation, you'll need to:
 - Enable the Zotero Integration plugin
-- Point it to your exported JSON file in the Integration folder
 - Configure citation templates (optional)
 
