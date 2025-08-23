@@ -1,81 +1,161 @@
-- Let's start by deleteing the default `Welcome` note by right clicking and choosing `Delete` from the context menu.
-- Now we have a completly blank canvas to start with.
-- Lets create a new note. 
-- There is a couple of ways to create new notes. 
-  - You hit the new notes icon on the tool bar
-  - Click the + on the tab strip and click `Create new note`
-  - Open the command pallet, find and click `Create new note`
-  - Or go with the keyboard short cut Ctrl + N on windows
+# Creating Notes with Markdown in Obsidian
 
-- When a new note is created by default it is called Untitled. This is literally the file name and is reflected in four places on the screen.
+This section covers the basics of creating and formatting notes using Markdown syntax.
+
+## Starting Fresh
+
+First, let's clean up the workspace:
+1. **Delete the default Welcome note**
+   - Right-click on the "Welcome" note
+   - Choose **"Delete"** from the context menu
+2. You now have a completely blank canvas to work with
+
+## Creating New Notes
+
+There are several ways to create a new note in Obsidian:
+
+- **Toolbar:** Click the **"New note"** icon
+- **Tab strip:** Click the **"+"** button and select **"Create new note"**
+- **Command Palette:** Open with `Ctrl+Shift+P` (Windows) or `Cmd+Shift+P` (Mac), then find **"Create new note"**
+- **Keyboard shortcut:** `Ctrl+N` (Windows) or `Cmd+N` (Mac)
+
+## Understanding Note Names
+
+When you create a new note, it's called "Untitled" by default. This filename appears in four places:
 
 ![Obsidian Notes Screen 00](./assets/Obsidian_Notes_00.png)
-  
-- If you change the text in any of these places the file name changes.
-- Stick to typical file naming conventions and avoid characters such as quotes and special characters.
-- We'll call this first note "Testing Markdown" and go through a few basic `Markdown` commands.
-- To create a heading we use the `#` symbol. Two hashes is a subheading three is a sub-subheading etc.
-- Next lets add the date 
-- Add some text. Putting double astrix `**` around a word makes it bold. Single astrix makes it italic.
-- Handy features include code block, lists, call outs
-- Here is a handy  [**Markdown** cheat sheet](https://www.markdownguide.org/cheat-sheet/)
-- More information on [**Callouts** here](https://help.obsidian.md/callouts)
 
-- In source mode
+**Important:** If you change the text in any of these locations, the filename changes automatically.
+
+### File Naming Best Practices
+- Use typical file naming conventions
+- Avoid special characters like quotes, slashes, or colons
+- Keep names descriptive but concise
+
+**For this workshop:** Let's name our first note **"Testing Markdown"**
+
+## Basic Markdown Formatting
+
+Now let's explore essential Markdown syntax:
+
+### Headers
+- `#` = Main heading (H1)
+- `##` = Subheading (H2)  
+- `###` = Sub-subheading (H3)
+- Continue adding `#` symbols for deeper levels
+
+### Text Formatting
+- `**bold text**` = **bold text**
+- `*italic text*` = *italic text*
+- `***bold and italic***` = ***bold and italic***
+
+### Useful Features
+- **Code blocks:** Use three backticks ``` for code
+- **Lists:** Use `-` or `*` for bullet points, numbers for ordered lists
+- **Callouts:** Special boxes for highlighting information
+
+### Learning Resources
+- [**Markdown Cheat Sheet**](https://www.markdownguide.org/cheat-sheet/) - Complete reference
+- [**Obsidian Callouts Guide**](https://help.obsidian.md/callouts) - Advanced callout formatting
+
+## Viewing Your Work
+
+Let's see how our note looks in both modes:
+
+**Source Mode** (raw Markdown):
 
 ![Obsidian Notes Screen 01](./assets/Obsidian_Notes_01.png)
 
-- In read only mode
+**Reading Mode**:
 
 ![Obsidian Notes Screen 02](./assets/Obsidian_Notes_02.png)
 
-- Now we can embed pictures and other documents into the note.
-- You can drag and drop the file in the source mode and it will copy the image next to your note and then it will create a link inside your note to the image.
-- Links are created using `[[]]` double square brackets.
-- Putting an `!` mark at the start of the double square brackets tells obsidian to render the link. 
+> **Workshop Tip:** Toggle between these views frequently to see how your formatting appears.
 
-![alt text](./assets/Obsidian_Notes_03.png)
+## Working with Attachments
 
-- If you are now enter reading view you can see the rendered image.
+### Adding Images
 
-![alt text](./assets/Obsidian_Notes_04.png)
+**Drag and Drop**
+1. Switch to **Source mode**
+2. Drag an image file into your note
+3. Obsidian automatically:
+   - Copies the image next to your note
+   - Creates a link using `![[filename]]` syntax
 
-- If you remove the leading `!` mark it will render as a normal link
+![Obsidian Notes Screen 03](./assets/Obsidian_Notes_03.png)
 
-![alt text](./assets/Obsidian_Notes_05.png)
+**In Reading Mode, the image renders:**
 
-- Now we can also do this with links to Youtube videos.
-- Try cutting and pasting the following link into your note.
-- Now toggle between the `Reading view` and `Source mode` to see the view rendered.
+![Obsidian Notes Screen 04](./assets/Obsidian_Notes_04.png)
 
-```Markdown
+### Understanding Link Syntax
+
+- `![[filename]]` = **Embedded content** (images, PDFs show inline)
+- `[[filename]]` = **Regular link** (clickable text only)
+
+**Example of regular link** (without the `!`):
+
+![Obsidian Notes Screen 05](./assets/Obsidian_Notes_05.png)
+
+### Embedding YouTube Videos
+
+Try this: Copy and paste this code into your note in Source mode:
+> **Tip:** Remeber to delete any `code block` syntax after you paste the link 
+
+```markdown
 ![Intro to neural networks from Andrej Karpathy](https://www.youtube.com/watch?v=VMj-3S1tku0)
 ```
 
-- Obsidian is unopinionated about how you structure your notes and attachements into folders. But it is always nice to put some structure around your vault just to remove the clutter. As your vault grows you will end up with lots of attachments that you may not always want to see.
-- So we are going to create a folder called `Attachments`
-- You can do this by clicking on the `New Folder` icon on the tool bar or through the right click context menu or from the command pallet.
+Toggle to Reading view to see the embedded video player.
 
-![alt text](./assets/Obsidian_Notes_06.png)
+## Organizing Your Vault
 
-- Now lets move our image into the `Attachments` directory by simply draging it in. (You can also do this through the command pallet)
+### Creating Folder Structure
 
-- Click back on your note and notice that even if we moved the image the link to the image still works.
+As your vault grows, organization becomes important. Let's create an **"Attachments"** folder:
 
-- No we don't want to do this everytime we want to attach a file to our note.
-- Lets change the default behavior so that all new attachments end up in the attachments folder.
-- Navigate to `Settings > Files and links` find `Default location for new attachments` and set it to `In the folder specified below` then set the `Attachment folder path` to `Attachments`
+- **Toolbar:** Click **"New folder"** icon
+- Simply **drag and drop** the image file into the folder
 
-![alt text](./assets/Obsidian_Notes_07.png)
+![Obsidian Notes Screen 06](./assets/Obsidian_Notes_06.png)
 
-- Lets try attaching another file but this time with a `PDF`.
-- Enter the `Source mode` then drag and drop it on to our note. 
-- Notice that the file now ends up in the right folder and we have a link in our note with `![[ ]]`
+**Important:** Notice that even after moving the image, the link in your note still works! Obsidian automatically updates internal links.
 
-![alt text](./assets/Obsidian_Notes_08.png)
+## Setting Default Attachment Behavior
 
-- When you enter `Reading view` the `PDF` file is rendered.
+Instead of manually organizing attachments each time, let's automate this:
 
-![alt text](./assets/Obsidian_Notes_09.png)
+### Configure Attachment Settings
 
+1. Go to **Settings** ⚙️
+2. Navigate to **"Files and links"**
+3. Find **"Default location for new attachments"**
+4. Select **"In the folder specified below"**
+5. Set **"Attachment folder path"** to: `Attachments`
 
+![Obsidian Notes Screen 07](./assets/Obsidian_Notes_07.png)
+
+## Testing the New Setup
+
+Let's verify our settings work with a PDF:
+
+### Adding a PDF File
+
+1. **Switch to Source mode**
+2. **Drag and drop** a PDF file onto your note
+3. **Observe:** 
+   - File automatically goes to the Attachments folder
+   - Link appears as `![[filename.pdf]]`
+
+![Obsidian Notes Screen 08](./assets/Obsidian_Notes_08.png)
+
+### Viewing the PDF
+
+Switch to **Reading mode** to see the PDF rendered inline:
+
+![Obsidian Notes Screen 09](./assets/Obsidian_Notes_09.png)
+
+## What's Next
+
+You now have the fundamentals for creating rich, well-organized notes in Obsidian. In the next section, we'll explore linking between notes to create a knowledge network.
