@@ -91,7 +91,7 @@ Let's see how our note looks in both modes:
 
 ### Understanding Link Syntax
 
-- `![[filename]]` = **Embedded content** (images, PDFs show inline)
+- `![[filename]]` = **Embedded content** (images, PDFs show inline). Note the `!` in front.
 - `[[filename]]` = **Regular link** (clickable text only)
 
 **Example of regular link** (without the `!`):
