@@ -1,2 +1,0 @@
-- Now the real power of obsdian is in being able to links insights together by using notes. 
-- Lets create another note.
