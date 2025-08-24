@@ -87,6 +87,9 @@ To create a tag, simply put a `#` in front of a word:
 
 ![Obsidian Linking and Tagging Screen](./assets/Link_06.png)
 
+
+2. **Tags can be hierarchical** - `#Programming/Markdown` is a valid tag. When you apply a tag to another note you can choose the prefered level.
+
 ### Tags vs. Links: Key Differences
 
 | Feature | Links `[[]]` | Tags `#` |
