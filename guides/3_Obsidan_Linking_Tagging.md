@@ -38,12 +38,12 @@ Now let's create a link between notes:
 
 Switch to **Reading View** to see how links work:
 
-![Obsidian Linking and Tagging Screen](./assets/Link_02.png)
-
 **You can now:**
 - **Click the link** to navigate to that note
 - **Use the sidebar** to see all backlinks (notes that link to the current note)
 - **Navigate back** by clicking on backlink entries
+
+![Obsidian Linking and Tagging Screen](./assets/Link_02.png)
 
 ### Seeing the Network Grow
 
