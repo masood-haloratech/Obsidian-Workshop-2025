@@ -55,7 +55,7 @@ You now see two connected nodes representing your linked notes!
 
 ## Creating Links to Non-Existent Notes
 
-One of Obsidian's powerful features is linking to notes that don't exist yet:
+A handy features is linking to notes that don't exist yet:
 
 1. **Type any concept** in double brackets, like `[[Markdown]]`
 2. **Check Graph View** - you'll see it as a new node
