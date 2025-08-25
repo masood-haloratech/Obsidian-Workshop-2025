@@ -23,7 +23,7 @@ Let's create a second note to demonstrate linking:
 
 1. **Create a new note** called `Obsidian Workshop`
 2. **Add the current date** at the top
-3. **Copy the learning resources** from our previous Markdown guide [Learning Resources](./Markdown_Walk_Through.md#learning-resources).
+3. **Copy the learning resources** from our previous Markdown guide [Learning Resources](./2_Markdown_Walkthrough.md#learning-resources).
 
 ### Making the Connection
 
