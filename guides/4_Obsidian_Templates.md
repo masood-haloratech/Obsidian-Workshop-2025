@@ -66,7 +66,7 @@ The core Templates plugin provides three built-in placeholders:
 
 ### Create a Second Template
 
-Due to a quirk in the Templates plugin, you need at least two templates for it to work properly.
+To demonstrate the verstility of templates we will create another template to store recipes.
 
 **Create a Recipe Note template:**
 
@@ -83,6 +83,7 @@ Now let's put our templates to work:
 ### Apply a Template to a New Note
 
 1. **Create a new note** and give it a name (e.g., "Nunjucks")
+> MAKE SURE TO BE IN SOURCE MODE
 
 ![New note](./assets/Template_04.png)
 
